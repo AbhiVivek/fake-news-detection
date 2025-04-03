@@ -1,4 +1,4 @@
-Flask
+Flask==2.1.0
 scikit-learn
 joblib
 nltk
