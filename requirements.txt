@@ -54,7 +54,7 @@ Jinja2==3.1.2
 joblib==1.4.2
 json5==0.9.14
 jsonpointer==2.4
-jsonschema==4.20.0
+jsonschema==4.17.3
 jsonschema-specifications==2023.11.2
 jupyter==1.0.0
 jupyter-console==6.6.3
@@ -130,7 +130,6 @@ retina-face==0.0.17
 rfc3339-validator==0.1.4
 rfc3986-validator==0.1.1
 rich==13.9.2
-rpds-py==0.13.2
 scikit-learn==1.6.1
 scipy==1.14.1
 seaborn==0.12.2
