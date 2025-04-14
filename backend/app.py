@@ -67,6 +67,9 @@ def predict():
 
     except Exception as e:
         return jsonify({"error": str(e)}), 500
+@app.route('/')
+def home():
+    return "Fake News Detection API is Live! Use the '/predict' endpoint to POST text."
 
 # Run the Flask app
 if __name__ == '__main__':
