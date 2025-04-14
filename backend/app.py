@@ -1,4 +1,5 @@
 from flask import Flask, request, jsonify
+from flask_cors import CORS
 import os
 import joblib
 import re
@@ -11,6 +12,7 @@ nltk.download('stopwords')
 
 # Initialize Flask app
 app = Flask(__name__)
+CORS(app)
 
 # Set relative paths for model files
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
